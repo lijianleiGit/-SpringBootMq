@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4be6be82-4b89-45a3-a1b2-93d9ecbb1637" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="true" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SendMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageListenerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/MessageListenerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicRabbitMqConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicAllReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicAllReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicManReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicAllReceover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicEditReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicSaveReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/MessageListenerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicAllReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\_software\maven\repository" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <option name="alwaysShowArtifactId" value="true" />
+    <option name="showVersions" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SoringBoot-MQ" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="y" value="-13" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitMqConf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="subscribe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoringBootMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoringBootMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowDatabase.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljl.mq.App" />
+      <module name="SoringBoot-MQ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljl.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SoringBoot-MQ" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljl.mq.App" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4be6be82-4b89-45a3-a1b2-93d9ecbb1637" name="Default" comment="" />
+      <created>1576217008156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576217008156</updated>
+      <workItem from="1576217009555" duration="717000" />
+      <workItem from="1576218136697" duration="8326000" />
+      <workItem from="1576242671790" duration="7673000" />
+      <workItem from="1577106405858" duration="18000" />
+      <workItem from="1588146068585" duration="2415000" />
+      <workItem from="1588206871775" duration="1188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20337000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.028744327" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" x="603" y="46" width="160" height="635" id="Database" order="5" weight="0.3338214" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57952756" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3296501" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Redis Explorer" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32913387" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/MessageListenerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicAllReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/MessageListenerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/MessageListenerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicSaveReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicEditReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicAllReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.1.RELEASE/spring-boot-dependencies-2.1.1.RELEASE.pom" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.2.RELEASE/spring-rabbit-2.1.2.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.2.RELEASE/spring-amqp-2.1.2.RELEASE.jar!/org/springframework/amqp/core/Binding.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.2.RELEASE/spring-amqp-2.1.2.RELEASE.jar!/org/springframework/amqp/core/AbstractExchange.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.2.RELEASE/spring-amqp-2.1.2.RELEASE.jar!/org/springframework/amqp/core/TopicExchange.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.2.RELEASE/spring-amqp-2.1.2.RELEASE.jar!/org/springframework/amqp/core/AcknowledgeMode.class" />
+    <entry file="uml://MAVEN/com.ljl:SoringBoot-MQ:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ljl:SoringBoot-MQ:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ljl:SoringBoot-MQ:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE/org.springframework:spring-jcl:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-expression:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework:spring-messaging:jar:5.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework.amqp:spring-amqp:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework.amqp:spring-amqp:jar:2.1.2.RELEASE/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/com.rabbitmq:amqp-client:jar:5.4.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/com.rabbitmq:amqp-client:jar:5.4.3/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework:spring-tx:jar:5.1.3.RELEASE</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.44</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.24578696343402226" x="1563.0" y="481.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/_software/maven/repository/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicSaveReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicEditReceiver.java" />
+    <entry file="jar://E:/_software/maven/repository/org/springframework/amqp/spring-amqp/2.1.2.RELEASE/spring-amqp-2.1.2.RELEASE.jar!/org/springframework/amqp/core/AcknowledgeMode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/_software/maven/repository/org/springframework/amqp/spring-rabbit/2.1.2.RELEASE/spring-rabbit-2.1.2.RELEASE.jar!/org/springframework/amqp/rabbit/listener/AbstractMessageListenerContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="292" column="16" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicAllReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/MessageListenerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/subscribe/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/controller/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljl/mq/rabbitMqConf/TopicRabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SoringBoot-MQ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
